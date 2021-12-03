@@ -1,0 +1,540 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/*---------reset---------*/
+
+
+body {
+
+}
+.nav_link {
+	text-decoration: none;
+	color: #fff;
+	font-family: 'Quicksand', sans-serif;
+	font-size: 15px;
+	word-spacing: 54px;
+}
+.nav_link:hover {
+	color: #000;
+}
+
+.intro_inner{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;	
+}
+.inner_title {
+	font-family: 'Quicksand', sans-serif;
+	font-size: 60px;
+	color: white;
+	text-align: center;
+	padding-top: 260px;
+	font-weight: bold;
+	letter-spacing: 5px;
+}
+.inner_subtitle {
+	color: white;
+	font-size: 17px;
+	font-family: 'Quicksand', sans-serif;
+	width: 100%;
+	max-width: 585px;
+	margin: 0 auto ;
+	text-align: center;
+	margin-top: 20px;
+	letter-spacing: 2px;
+}
+.logo {
+	padding-left: 64px;
+}
+.header {
+	width: 100%;
+	height: 100vh;
+	background: url("img/Title.jpg") center no-repeat;
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+     background-size: cover;
+}
+.topnav {
+	word-spacing: 54px;
+	margin: auto 500;
+}
+.inner_header {
+	padding-top: 40px;
+	padding-right: 64px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.arrow {
+	display: flex;
+	justify-content: center;
+	padding-top: 370px;
+}
+    
+.selector {
+	width: 100%;
+	display: flex;
+
+}
+
+.chekbox {
+	display: flex;
+	justify-content: space-between;
+	color: #000;
+	font-family: 'Quicksand', sans-serif;
+	text-transform: uppercase;
+	/*flex-direction: row;*/
+	font-size: 20px;	
+	height: 100%;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	background-color: #f5f6f7;
+}
+.selector {
+	position: relative;
+	left: 100px;
+	top: 20px;
+	font-weight: bold;
+}
+.btn {
+	text-decoration: none;
+	font-family: 'Quicksand', sans-serif;
+	text-transform: uppercase;
+	background-color: #aa9b77;
+	color: #fff;
+	width: 200px;
+	height: 50px;
+	font-size: 10px;
+	text-align: center;
+	border-radius: 4px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	position: relative;
+	right: 100px;
+	vertical-align: top;
+	letter-spacing: 2px; 
+}
+.men {
+	font-family: 'Quicksand', sans-serif;
+	text-transform: uppercase;
+	font-size: 15px; 
+	position: relative;
+	padding-top: 87px;
+	padding-left: 100px;
+	display: block;
+	font-weight: bold;
+}
+.men:after {
+	display: block;                  
+    width:1000px;                    
+    content: '';                                 
+    top:50%;      
+    position: relative;
+    border-bottom: 2px solid #cccccc;    
+    width: 1600px;  
+    left: 96px;           
+}
+.prod {
+	height: 1300px;
+}
+.m_prod {
+	display: flex;
+	justify-content: center;
+}
+.t-shirt {
+	height: 380px; 
+	width: 320px;
+	background-color: #f5f6f7;
+	margin-top: 100px;
+}
+.t-shirt:hover {
+	box-shadow:
+    1px 1px #aa9b77,
+    2px 2px #aa9b77,
+    3px 3px #aa9b77,
+    4px 4px #aa9b77,
+    5px 5px #aa9b77,
+    6px 6px #aa9b77,
+    7px 7px #aa9b77;
+  	-webkit-transform: translateX(-7px);
+  	transform: translateX(-7px);
+}
+.pants {
+	height: 380px; 
+	width: 320px;
+	background-color: #f5f6f7;
+	margin-top: 100px; 
+	margin-left: 64px;
+}
+.pants:hover {
+	box-shadow:
+    1px 1px #aa9b77,
+    2px 2px #aa9b77,
+    3px 3px #aa9b77,
+    4px 4px #aa9b77,
+    5px 5px #aa9b77,
+    6px 6px #aa9b77,
+    7px 7px #aa9b77;
+  	-webkit-transform: translateX(-7px);
+  	transform: translateX(-7px);
+}
+.bp {
+	height: 380px; 
+	width: 320px;
+	background-color: #f5f6f7;
+	margin-top: 100px; 
+	margin-left: 64px;
+}
+.bp:hover {
+	box-shadow:
+    1px 1px #aa9b77,
+    2px 2px #aa9b77,
+    3px 3px #aa9b77,
+    4px 4px #aa9b77,
+    5px 5px #aa9b77,
+    6px 6px #aa9b77,
+    7px 7px #aa9b77;
+  	-webkit-transform: translateX(-7px);
+  	transform: translateX(-7px);
+  }
+.ts_img {
+	position: absolute;
+	padding-left: 72px;
+	padding-top: 0px;
+
+}
+.pants_img {
+	position: absolute;
+	padding-top: 0px;
+	padding-left: 104px;
+}
+.bp_img {
+	position: absolute;
+	padding-top: 0px;
+	padding-left: 96px;
+}
+.ts_p {
+	font-size: 15px;
+	font-family: 'Quicksand', sans-serif;
+	color: #aa9b77;
+	text-transform: uppercase;
+	position: relative;
+	margin-top:350px;
+	margin-left: 20px;
+
+}
+.pants_p {
+	font-size: 15px;
+	font-family: 'Quicksand', sans-serif;
+	color: #aa9b77;
+	text-transform: uppercase;
+	position: relative;
+	margin-top:350px;
+	margin-left: 20px;
+
+}
+.bp_p {
+	font-size: 15px;
+	font-family: 'Quicksand', sans-serif;
+	color: #aa9b77;
+	text-transform: uppercase;
+	display: flex;
+	position: relative;
+	margin-top:350px;
+	margin-left: 20px;
+
+}
+.content {
+	display: flex;
+	flex-direction: column-reverse;
+	justify-content: space-around;
+}
+
+
+
+
+/* цены цвета сайзы надо сделать*/
+
+
+
+
+.women{
+font-family: 'Quicksand', sans-serif;
+	text-transform: uppercase;
+	font-size: 15px; 
+	position: relative;
+	padding-top: 87px;
+	padding-right: 96px;
+	display: block;
+	font-weight: bold;
+	display: flex;
+	flex-direction: row-reverse;
+}
+.women:after {
+	display: block;                                     
+    content: '';                                 
+    top:50%;      
+    position: relative;
+    border-bottom: 2px solid #cccccc;    
+    width: 1600px;  
+    right: 50px;           
+}
+.w_prod {
+	display: flex;
+	justify-content: center;
+}
+.wt-shirt {
+	height: 380px; 
+	width: 320px;
+	background-color: #f5f6f7;
+	margin-top: 100px;
+}
+.wt-shirt:hover {
+	box-shadow:
+    1px 1px #aa9b77,
+    2px 2px #aa9b77,
+    3px 3px #aa9b77,
+    4px 4px #aa9b77,
+    5px 5px #aa9b77,
+    6px 6px #aa9b77,
+    7px 7px #aa9b77;
+  	-webkit-transform: translateX(-7px);
+  	transform: translateX(-7px);
+}
+.trekkingshoes {
+	height: 380px; 
+	width: 320px;
+	background-color: #f5f6f7;
+	margin-top: 100px; 
+	margin-left: 64px;
+}
+.trekkingshoes:hover {
+	box-shadow:
+    1px 1px #aa9b77,
+    2px 2px #aa9b77,
+    3px 3px #aa9b77,
+    4px 4px #aa9b77,
+    5px 5px #aa9b77,
+    6px 6px #aa9b77,
+    7px 7px #aa9b77;
+  	-webkit-transform: translateX(-7px);
+  	transform: translateX(-7px);
+}
+.wts {
+	height: 380px; 
+	width: 320px;
+	background-color: #f5f6f7;
+	margin-top: 100px; 
+	margin-left: 64px;
+}
+.wts:hover {
+	box-shadow:
+    1px 1px #aa9b77,
+    2px 2px #aa9b77,
+    3px 3px #aa9b77,
+    4px 4px #aa9b77,
+    5px 5px #aa9b77,
+    6px 6px #aa9b77,
+    7px 7px #aa9b77;
+  	-webkit-transform: translateX(-7px);
+  	transform: translateX(-7px);
+  }
+.giacket_img {
+	position: absolute;
+	padding-left: 72px;
+	padding-top: 0px;
+
+}
+.trek_shoes_img {
+	position: absolute;
+	padding-top: 0px;
+	padding-left: 80px;
+}
+.wts_img {
+	position: absolute;
+	padding-top: 0px;
+	padding-left: 70px;
+}
+.giacket_p {
+	font-size: 15px;
+	font-family: 'Quicksand', sans-serif;
+	color: #aa9b77;
+	text-transform: uppercase;
+	position: relative;
+	margin-top:350px;
+	margin-left: 20px;
+
+}
+.trek_shoes {
+	font-size: 15px;
+	font-family: 'Quicksand', sans-serif;
+	color: #aa9b77;
+	text-transform: uppercase;
+	position: relative;
+	margin-top:350px;
+	margin-left: 20px;
+
+}
+.wts_p {
+	font-size: 15px;
+	font-family: 'Quicksand', sans-serif;
+	color: #aa9b77;
+	text-transform: uppercase;
+	display: flex;
+	position: relative;
+	margin-top:350px;
+	margin-left: 20px;
+
+}
+.wcontent {
+	display: flex;
+	flex-direction: column-reverse;
+	justify-content: space-around;
+}
+.footer_info {
+	width: 100%;
+	height: 400px;
+	background-color: #aa9b77;
+	text-align: center;
+	padding-top: 75px;
+}
+.about {
+	text-transform: uppercase;
+	font-family: 'Quicksand', sans-serif;
+	font-size: 15px;
+	font-weight: bold;
+	color: #837659;
+}
+.about_text {
+	font-family: 'Quicksand', sans-serif;
+	font-size: 15px;
+	color: #000;
+	line-height: 25px;
+	width: 480px;
+	margin-left: 100px;
+	
+}
+fieldset {
+	border: 2px solid #918363;	
+	width: 710px;
+	height: 250px;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	position: relative;
+
+}
+.box {
+	display: flex;
+	justify-content: center;
+}
+.twit {
+	height: 70px;
+	background-color: #535253;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	flex-direction: row-reverse;
+}
+.twit_img {
+	padding-left: 64px;
+}
+.e-commerce {
+	font-family: 'Quicksand', sans-serif;
+	color: #fff;
+	margin-left: 25px;
+}
+.bc {
+	height: 352px;
+	background-color: #424242;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.bc_header {
+	font-family: 'Quicksand', sans-serif;
+	text-transform: uppercase;
+	font-weight: bold;
+	color: #fff;
+}
+.bc_text {
+	font-family: 'Quicksand', sans-serif;
+	text-transform: uppercase;
+	color: #fff;
+	font-size: 10px;
+	line-height: 17px;
+	margin-top: 10px;
+	
+}
+.left_side {
+	display: flex;
+	height: 120px;
+	width: 320px;
+	margin-left: 64px;
+	flex-direction: column;
+}
+
+.right_side {
+	display: flex;
+	width: 277px;
+	flex-direction: column;
+	align-items: center;
+	margin-right: 64px;
+}
+.bc_link {
+	font-family: 'Quicksand', sans-serif;
+	text-transform: uppercase;
+	text-decoration: none;
+	color: #fff;
+	font-size: 13px;
+}
+.nav_text {
+	font-family: 'Quicksand', sans-serif;
+	font-size: 15px;
+	color: #fff;
+}
